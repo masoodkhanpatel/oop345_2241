@@ -8,6 +8,7 @@
 //     int x = 5;
 
 //     auto ref_to_x = std::ref(x); 
+//     std::cout << typeid(ref_to_x).name() << "\n";
 
 //     ref_to_x.get() = 10;  // Modifies the original 'x'
 
