@@ -1,25 +1,26 @@
-// // String View Class
-// // string_view.cpp
+// // String Class
+// // string.cpp
 
 // #include <iostream>
 // #include <string>
-// #include <string_view>
 
 // int main()
 // {
-//     std::string str("Hello");
-//     str += '\0'; // adds a null byte
-//     str += " World"; // adds a string
 
-//     int i = 0;
+//     std::string str1("Hello");
+//     std::string str2("World");
+//     std::string str3("His");
+//     std::string str4;
+//     str4 = str1 + str2 + str3;
+//     int i=0;
+//     for(const auto& x:str4){
+//         if(str4[i++]=='\0')
+//             std::cout << "null byte found";
+//     }
 
-//     std::string_view str_view(str);
+//     std::cout << str4 << "\n";
 
-//     str_view[0] = "."; // [] not overloaded at all, therefore will not work
-
-//     // for (const auto& c : str_view)
-//     //     if (str_view[i++] == '\0')
-//     //         std::cout << "Null byte at str_view[" << i-1 << "]\n";
-
-//     // std::cout << str_view << std::endl;
+//     // for (const auto& abc: str)
+//     //     if (str[i++] == '\0')
+//     //         std::cout << "Null byte at str[" << i-1 << "]\n";
 // }
