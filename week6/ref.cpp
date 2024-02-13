@@ -21,5 +21,5 @@
 //     ref_to_name.get() += " Khan Patel";
 
 //     std::cout << ref_to_name.get() << "\n";
-//     std::cout << name << "\n";
+//     std::cout << name << "\n"; // print the original string
 // }

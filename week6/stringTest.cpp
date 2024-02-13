@@ -15,9 +15,11 @@
 
 //     std::string_view str_view(str);
 
-//     for (const auto& c : str_view)
-//         if (str_view[i++] == '\0')
-//             std::cout << "Null byte at str_view[" << i-1 << "]\n";
+//     str_view[0] = "."; // [] not overloaded at all, therefore will not work
 
-//     std::cout << str_view << std::endl;
+//     // for (const auto& c : str_view)
+//     //     if (str_view[i++] == '\0')
+//     //         std::cout << "Null byte at str_view[" << i-1 << "]\n";
+
+//     // std::cout << str_view << std::endl;
 // }
