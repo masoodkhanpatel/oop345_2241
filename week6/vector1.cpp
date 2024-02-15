@@ -9,7 +9,8 @@
 //     // int arr[5]; // stack
 //     // int* arr = new int[5]; // heap, cannot change size 
 
-//     std::vector<double> prices; // initially empty
+    // std::vector<double> prices; // initially empty
+
 
 //     if(prices.empty())       // is prices empty?
 //         std::cout << "prices is empty" << std::endl;
@@ -26,7 +27,7 @@
 //         std::cout << x << " ";
 //     std::cout << "\n";
 
-//     prices.front() = 54.11; // change 1st element
+    // prices.front() = 54.11; // change 1st element
 //     prices.pop_back();      // remove last element
 
 //     for(int i = 0; i < prices.size(); i++)
