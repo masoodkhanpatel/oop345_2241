@@ -6,8 +6,8 @@
 // {
 //     std::variant<long, double> a, b;
 //     a = 12l; // a contains a long
-//     b = std::get<long>(a);
-//     std::cout << std::get<long>(b) << std::endl;
+//     b = std::get<long>(a); // to retrieve the value
+//     // std::cout << std::get<long>(b) << std::endl;
 
 //     try
 //     {

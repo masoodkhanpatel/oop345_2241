@@ -16,10 +16,10 @@
 // int main(){
 //     option userOption = "exit";
 //     printOption(userOption);
-//     userOption = 9.9;
+//     userOption = 9.9; // change to double
 //     std::cout << "After changing to double\n";
 //     printOption(userOption);
-//     userOption = 99;
+//     userOption = 99; // change to integer
 //     std::cout << "After changing to integer\n";
 //     printOption(userOption);
 //     return 0;

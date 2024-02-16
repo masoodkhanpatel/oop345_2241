@@ -13,10 +13,13 @@ int main()
     prices.push_back(20.54);   // add 20.54, // 12.52
     prices.push_back(32.43);   // add 32.43
     
-    auto i = prices.end();
+    auto i = prices.end(); // this is iterator
     std::advance(i, -1);
     prices.insert(i, 12.52); 
-    prices.erase(prices.begin()++); // erase one place after beginning
+    
+    auto b =  prices.begin();
+    std::advance(i, 1);
+    prices.erase(b); // erase one place after beginning
 
     for(auto it = prices.begin(); it != prices.end(); it++)
         std::cout << *it << "  ";
