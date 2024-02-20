@@ -2,7 +2,7 @@
 // // Module_b.cpp
 
 // #include <iostream>
-// void display();
+// void display(); // the linker will look for the function and connect it
 // int share_me = 0; // variable definition
 
 // int main()

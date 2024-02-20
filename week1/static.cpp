@@ -16,24 +16,3 @@
 //     display();
 //     return 0;
 // }
-
-
-
-
-
-// /************/
-
-
-// // Type Inference
-// // auto-compilation-error.cpp
-
-// #include <iostream>
-
-// int main ()
-// {
-//   auto a[] {1, 2, 3, 4, 5, 6};  // ERROR
-//   const auto n = 6; // this works
-//   for (auto i = 0; i < n; i++)
-//     std::cout << a[i] << ' ';
-//   std::cout << std::endl;
-// }
