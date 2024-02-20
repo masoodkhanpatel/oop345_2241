@@ -1,5 +1,6 @@
 {
     "files.associations": {
+        "iostream": "cpp",
         "__bit_reference": "cpp",
         "__config": "cpp",
         "__debug": "cpp",
@@ -32,7 +33,6 @@
         "initializer_list": "cpp",
         "ios": "cpp",
         "iosfwd": "cpp",
-        "iostream": "cpp",
         "istream": "cpp",
         "limits": "cpp",
         "locale": "cpp",
@@ -52,12 +52,6 @@
         "unordered_map": "cpp",
         "variant": "cpp",
         "vector": "cpp",
-        "algorithm": "cpp",
-        "functional": "cpp",
-        "deque": "cpp",
-        "list": "cpp",
-        "stack": "cpp",
-        "cfenv": "cpp",
-        "iomanip": "cpp"
+        "algorithm": "cpp"
     }
 }
