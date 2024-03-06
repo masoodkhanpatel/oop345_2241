@@ -34,6 +34,21 @@
 //     // return also type Sum
 //     std::cout << "sum:\t" << s.sum << '\n';
 
+//     struct CheckEvenOdd
+//     {
+//         int count = 0;
+//         void operator()(int n) { 
+//             if (n%2 == 0){
+//                 std::cout << "Even\n"; 
+//                 count++;
+//             }
+//             else
+//                 std::cout << "Odd\n";
+//         }
+//     }; 
+
+//     CheckEvenOdd checkEven =  std::for_each(v.begin(), v.end(), CheckEvenOdd());
+//     std::cout << checkEven.count << "\n";
 
 //     struct Mul
 //     {

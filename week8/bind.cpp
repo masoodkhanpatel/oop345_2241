@@ -10,8 +10,18 @@
 //     return x + y;
 // }
 
+
+
 // int main()
 // {
+//     auto myfunction = [](int a, int b){ return std::pow(a,b);};
+
+//     auto power_of_2 =  std::bind(myfunction, std::placeholders::_1, 2);
+
+//     std::cout << "pow: " << myfunction(2,3) << "\n";
+//     std::cout << "power_of_2: " << power_of_2(4) << "\n";
+
+
 //     auto multiply_by_10 = std::bind(multiply, std::placeholders::_1, 10);
 //     // multiply_by_10(3); ->    std::bind(multiply, 3, 10);
 

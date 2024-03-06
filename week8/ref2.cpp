@@ -9,7 +9,8 @@
 // int main()
 // {
 //     int a = 10, b = 20;
-//     auto inc = std::bind(increment, a, b);
+//     auto inc = std::bind(increment, std::ref(a), std::ref(b));
+//     // std::function<void(int&,int&)> inc = increment;
 
 //     inc();
 
