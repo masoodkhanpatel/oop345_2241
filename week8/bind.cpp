@@ -17,6 +17,18 @@
 //     auto myfunction = [](int a, int b){ return std::pow(a,b);};
 
 //     auto power_of_2 =  std::bind(myfunction, std::placeholders::_1, 2);
+//     // power_of_2(5); // std::placeholders::_1 = 5
+//     // std::bind(myfunction, 5, 2);
+//     // myfunction(5,2);
+
+//     auto compare = [](int a, int b){ return a>b;};
+//     auto compare_bind = std::bind(compare, std::placeholders::_2, std::placeholders::_1);
+//     std::cout << compare_bind(2,4) << "\n";
+//     // std::placeholders::_1 = 4;
+//     // std::placeholders::_2 = 2;
+//     // std::placeholders::_3 = 67;
+//     // std::bind(compare, 2, 4);
+
 
 //     std::cout << "pow: " << myfunction(2,3) << "\n";
 //     std::cout << "power_of_2: " << power_of_2(4) << "\n";

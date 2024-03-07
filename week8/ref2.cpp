@@ -10,6 +10,7 @@
 // {
 //     int a = 10, b = 20;
 //     auto inc = std::bind(increment, std::ref(a), std::ref(b));
+//     // &*a = a, &*b=b
 //     // std::function<void(int&,int&)> inc = increment;
 
 //     inc();
