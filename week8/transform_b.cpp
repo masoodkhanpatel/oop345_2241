@@ -12,7 +12,7 @@
 //     std::vector<int> b = {2, 1, 0, 1, 2, 3, 16, 23, 21, 17, 32};
 //     std::vector<int> c(11);
 
-//     std::transform(a.begin(), a.end(), b.begin(), c.begin(), [](int a, int b){return a+2*b;});
+//     std::transform(a.begin(), a.end(), b.begin(), c.begin(), [](int a, int b){return a+b;});
 
 //     for (auto e : a)
 //         std::cout << e << " ";

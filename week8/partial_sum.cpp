@@ -14,13 +14,13 @@
 //         std::cout << x << " ";
 //      std::cout << "\n";
 
-//     //  std::partial_sum(a.begin(),a.end(),  std::ostream_iterator<int>(std::cout, " "));
+//      std::partial_sum(a.begin(),a.end(),  std::ostream_iterator<int>(std::cout, " "));
 
 //     //  std::partial_sum(a.begin(),a.end(), a.begin(), std::multiplies<int>());
-//     std::partial_sum(a.begin(),a.end(), a.begin(), std::minus<int>());
-//      for(auto x:a)
-//         std::cout << x << " ";
-//      std::cout << "\n";
+//     // std::partial_sum(a.begin(),a.end(), a.begin(), std::minus<int>());
+//     //  for(auto x:a)
+//     //     std::cout << x << " ";
+//     //  std::cout << "\n";
  
 //     // std::cout << "The first " << v.size() << " even numbers are: ";
 //     // // write the result to the cout stream

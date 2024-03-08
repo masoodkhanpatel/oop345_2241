@@ -4,7 +4,9 @@
  
 // int main() 
 // {
-//     std::srand(std::time(nullptr)); // use current time as seed for random generator
+//     auto time = std::time(nullptr);
+//     std::cout << time << "\n";
+//     std::srand(time); // use current time as seed for random generator
 //     int random_value = std::rand();
 
 //     std::cout << "Random value on [0, " << RAND_MAX << "]: " << random_value << "\n"
