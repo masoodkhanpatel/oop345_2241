@@ -30,19 +30,36 @@
  
 //     m["CPU"] = 25; // update an existing value
 //     m["SSD"] = 30; // insert a new value
-//     print_map("2) Updated map: ", m);
+
+//     for(auto each: m){
+//         std::cout << each.first << ":" << each.second << "\n";
+//     }
+
+//     std::map<int, std::vector<std::string>> students;
+
+//     students[1] = {"John Doe", "male", "CPA"};
+//     students[99] = {"John Doe1", "male", "CPP"};
+
+//     for(auto each: students){
+//         std::cout << each.first << ":";
+//         for(auto x:each.second)
+//             std::cout << x << " ";
+//         std::cout << "\n";
+//     }
+
+//     // print_map("2) Updated map: ", m);
  
-//     // Using operator[] with non-existent key always performs an insert
-//     std::cout << "3) m[UPS] = " << m["UPS"] << '\n';
-//     print_map("4) Updated map: ", m);
+//     // // Using operator[] with non-existent key always performs an insert
+//     // std::cout << "3) m[UPS] = " << m["UPS"] << '\n';
+//     // print_map("4) Updated map: ", m);
  
-//     m.erase("GPU");
-//     print_map("5) After erase: ", m);
+//     // m.erase("GPU");
+//     // print_map("5) After erase: ", m);
  
-//     std::erase_if(m, [](const auto& pair){ return pair.second > 25; });
-//     print_map("6) After erase: ", m);
-//     std::cout << "7) m.size() = " << m.size() << '\n';
+//     // std::erase_if(m, [](const auto& pair){ return pair.second > 25; });
+//     // print_map("6) After erase: ", m);
+//     // std::cout << "7) m.size() = " << m.size() << '\n';
  
-//     m.clear();
-//     std::cout << std::boolalpha << "8) Map is empty: " << m.empty() << '\n';
+//     // m.clear();
+//     // std::cout << std::boolalpha << "8) Map is empty: " << m.empty() << '\n';
 // }

@@ -5,9 +5,10 @@
 // int main() 
 // {
 //     auto time = std::time(nullptr);
-//     time = time + 300;
-//     std::cout << time << "\n";
+//     std::cout << "Time: " << time << "\n";
+//     time = time + 1000000;
 //     std::srand(time);
+//     std::cout << time << "\n";
 //     std::cout << rand() << "\n";
 //     std::cout << rand() << "\n";
 //     std::cout << rand() << "\n";

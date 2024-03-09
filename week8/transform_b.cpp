@@ -10,9 +10,9 @@
 // {
 //     std::vector<int> a = {1, 2, 4, 5, 7, 8, 10, 13, 17, 21, 43};
 //     std::vector<int> b = {2, 1, 0, 1, 2, 3, 16, 23, 21, 17, 32};
-//     std::vector<int> c(11);
+//     std::vector<int> c(11); // result
 
-//     std::transform(a.begin(), a.end(), b.begin(), c.begin(), [](int a, int b){return a+b;});
+//     std::transform(a.begin(), a.end(), b.begin(), c.begin(), std::multiplies<int>());
 
 //     for (auto e : a)
 //         std::cout << e << " ";
