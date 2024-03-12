@@ -1,26 +1,29 @@
 // #include <iostream>
+// #include <fstream>
+// #include <unistd.h>
 
 // int main(){
 
-//     if (std::cin.fail())
+//     if (std::cin.fail()) // if return true
 //     {
 //         std::cerr << "Read error" << std::endl;
-//         // std::cin.clear();
-//         //
 //     } 
-//     else 
+//     else // return false
 //     {
-//         std::cout << "Input device functioning\n";
+//         std::cout << "Input stream working\n";
 //     }
 
-//     // std::cin.clear();
+//     // set the state of std::cout to fail
+//     std::cout.setstate(std::cout.failbit);
 
+//     // reset the flags of std::cout
+//     std::cout.clear(); // changing the state to default
 
 //     if(std::cout.fail()){
-//         std::cout << "Write error\n";
+//         return 123; // check via echo $? in the terminal
 //     }
 //     else{
-//         std::cout << "Output stream working";
+//         std::cout << "Output stream working\n";
+//         return 0;
 //     }
-//     std::cout.clear();
 // }

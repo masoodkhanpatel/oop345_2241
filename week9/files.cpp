@@ -3,6 +3,7 @@
 
 
 // int main(){
+
 //     std::ofstream fout("output.txt");  // opens output.txt for output
 //     std::ifstream fin ("input.txt");   // opens input.txt for input
 //     // fin -> NULL (false)

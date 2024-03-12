@@ -2,7 +2,6 @@
 
 // int main(){
 
-//     std::cout << "Hello\n";
-//     std::cout << std::cin.good();
-//     std::cout << std::cin.eof();
+//     std::cout << std::cout.badbit << "\n"; // failure - true
+//     std::cout << std::cout.bad(); // pass - false
 // }
