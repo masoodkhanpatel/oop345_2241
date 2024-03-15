@@ -1,14 +1,17 @@
-// // Smart Pointers - Unsafe Exception
-// // unsafe_exception.cpp
+// // Smart Pointers - Safe Exception
+// // safe_exception.cpp
 
 // #include <iostream>
 // #include "Title.h"
+// // #include "SmartPointer.h"
+// #include <memory>
 
 // void display(const char* s)
 // {
-//     Title* t = new Title(s); // new Title("") NULL
-//     t->display(); // may throw an exception!
-//     delete t;
+//     // Title* t = new Title(s);
+//     // SmartPtr<Title> t(new Title(s));
+//     std::unique_ptr<Title> t(new Title(s));
+//     t->display();
 // }
 
 // int main()

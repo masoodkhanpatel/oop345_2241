@@ -7,13 +7,13 @@
 // int main()
 // {
 //     const char* p = "May be overwritten";
-//     char s[19];
+//     char s[19]; // for the copy
 //     std::strcpy(s, p);
 
 //     s[0] = 'm';  // OK
 //     std::cout << std::hex;
 //     std::cout << s << std::endl;
 
-//     std::cout << "s = " << (int*)s << std::endl;
+//     std::cout << "s = " << (int*)s << std::endl; // different addresses
 //     std::cout << "p = " << (int*)p << std::endl;
 // }

@@ -8,6 +8,9 @@ class SmartPtr
 
 public:
     explicit SmartPtr(T* ptr) : p(ptr) { } ; // p = ptr // connecting to resource
+    // Person* p1 = new Person(....)
+    // SmartPtr<Person> abc = new SmartPtr(p1);
+    // p = p1;
 
     SmartPtr(const SmartPtr&) = delete;
     SmartPtr& operator=(const SmartPtr&) = delete;

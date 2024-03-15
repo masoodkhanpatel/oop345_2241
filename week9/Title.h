@@ -8,7 +8,7 @@ class Title
     const char* title;
     const char* validTitle() const
     {
-        if (!title[0])
+        if (!title[0]) // if title is NULL
             throw "invalid title";
 
         return title;
