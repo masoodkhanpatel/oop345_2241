@@ -13,6 +13,8 @@
 // int main()
 // {
 //     int x, y; // addresses allocated to variables
+//     std::cout << x << " " << y << "\n";
+
 //     int* p = &x;
 //     int* q = &y;
 //     x = 123;
@@ -30,8 +32,9 @@
 
 //     std::cout << x << " " << y << "\n";
 
-//     std::swap(x,y); //  use from standard libary to swap elements
+//     std::swap(p,q); //  use from standard libary to swap elements
 //     std::cout << "p = " << p << std::endl;
 //     std::cout << "q = " << q << std::endl;
 //     std::cout << x << " " << y << "\n";
+
 // }

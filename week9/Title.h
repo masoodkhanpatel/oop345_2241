@@ -10,7 +10,6 @@ class Title
     {
         if (!title[0]) // if title is NULL
             throw "invalid title";
-
         return title;
     }
 
