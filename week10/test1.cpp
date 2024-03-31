@@ -6,7 +6,8 @@
 int main(){
     // 1 << 27 = 2^27, all elements are 0.5
     for(int i=1; i<28;i++){
-        std::vector<double> x(1 << i, 0.5);
+
+        std::vector<double> x(1 << i, 0.5); // 1 << i = 2^i
 
         auto start = std::chrono::steady_clock::now();
         double sum = std::accumulate(x.begin(), x.end(), 0.0);

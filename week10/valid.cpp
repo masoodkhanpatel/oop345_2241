@@ -22,12 +22,19 @@ int main()
     std::cout << (f.valid() ? "f is valid" : "f is not valid") << std::endl;
     std::cout << (g.valid() ? "g is valid" : "g is not valid") << std::endl;
 
+    f = std::async(get);
     double a = f.get(); // retrieve shared value
-    // f is not connected after retreival
+    // // f is not connected after retreival
 
     std::cout << "After Retrieval" << std::endl;
     std::cout << (f.valid() ? "f is valid" : "f is not valid") << std::endl;
     std::cout << (g.valid() ? "g is valid" : "g is not valid") << std::endl;
 
     std::cout << "Return Value = " << a << std::endl;
+
+    f = std::async(get);
+    std::cout << "After connecting the future" << std::endl;
+    std::cout << (f.valid() ? "f is valid" : "f is not valid") << std::endl;
+    std::cout << (g.valid() ? "g is valid" : "g is not valid") << std::endl;
+
 }

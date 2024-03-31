@@ -6,14 +6,14 @@
 #include <future>
 
 double task(double x) { 
-    std::cout << std::this_thread::get_id() << "\n";
+    std::cout << "Thread id of task: " << std::this_thread::get_id() << "\n";
     return x * 2; 
 }
 
 int main()
 {
-    std::cout << std::this_thread::get_id() << "\n";
-    auto f = std::async(task, 10);
-    auto r = f.get();
+    std::cout <<  "Thread id of main: " << std::this_thread::get_id() << "\n";
+    auto f = std::async(task, 10); // will run in a new thread
+    double r = f.get();
     std::cout << "Result = " << r << std::endl;
 }
