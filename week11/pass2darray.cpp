@@ -8,9 +8,9 @@ void foo(int a[][3], int r, int c);
 
 int main ()
 {
-  int a[5][3] = {{11, 12, 13}, {21, 22, 23}};
-  foo(a, 6, 3);
-  std::cout << &a[5][1] << "\n";
+  int a[2][3] = {{11, 12, 13}, {21, 22, 23}};
+  foo(a, 2, 3);
+  // std::cout << &a[5][1] << "\n";
 }
 
 void foo(int a[][3], int r, int c)

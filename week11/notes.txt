@@ -1,0 +1,26 @@
+{"John", "Doe","Jack", "Masood"}
+[4],[3].[4],[6]
+
+[4]
+
+Consider string as array of chars
+
+
+[4][65]
+
+["John__","_Doe___","Jack__""Masood"] = 4
+[1,2,3,4]
+
+
+Ragged Arrays
+
+[&1,&2,&3,&4] = [4][1]
+
+Pointer to 1-d;
+ int (*ptr)[size] = (int(*)[size]) new int[size];
+
+ with reference...
+ int a; a = new int[5]
+
+
+

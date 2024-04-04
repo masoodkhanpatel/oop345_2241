@@ -7,22 +7,20 @@
 
 int main ()
 {
-  int c, r;
-  int **a;  // points to row addresses
+  int r;
+  const int c=5;
+  int (*a)[c]; // diff from dynamic2d.cpp
 
 
 
   std::cout << "Number of rows : ";
   std::cin >> r;
-  std::cout << "Number of columns : ";
-  std::cin >> c;
+//   std::cout << "Number of columns : ";
+//   std::cin >> c;
 
   
 
-  a = new int*[r]; // for row addresses
-
-  for (int i = 0; i < r; i++)
-    a[i] = new int[c]; // for elements of row i
+  a = new int[r][c]; // diff from dynamic2d.cpp
 
   for (int i = 0; i < r; i++)
     for (int j = 0; j < c; j++)

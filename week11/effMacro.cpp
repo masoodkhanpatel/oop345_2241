@@ -23,7 +23,7 @@ int main ()
   for (i = 0; i < NITER; i++)
     x = PRODUCT(x, 1.0000000001);
   c1 = std::clock(); // end
-    auto timem = (double)(c1-c0)/CLOCKS_PER_SEC; // duration
+  auto timem = (double)(c1-c0)/CLOCKS_PER_SEC; // duration
   std::cout << "Process time of Macro is "
             << timem << " secs\n";
   std::cout << "Value of x is " << x << std::endl;
@@ -36,7 +36,7 @@ int main ()
     x = product(x, 1.0000000001);
   c1 = clock();
 
-    auto timef = (double)(c1-c0)/CLOCKS_PER_SEC ;
+  auto timef = (double)(c1-c0)/CLOCKS_PER_SEC ;
   std::cout << "Process time of function is "
             << timef << " secs\n";
   std::cout << "Value of x is " << x << std::endl;

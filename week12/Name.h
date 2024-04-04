@@ -9,6 +9,6 @@ class Name
 protected:
   Name(const char* n);
 public:
-  virtual void display() const;
+  virtual void display() const; // can be overridden
 };
 #endif

@@ -12,6 +12,10 @@ int main()
   sc.display();
   sl.display();
 
-  lc.NCube::display();   // through NCube
-  lc.NLitObj::display(); // through NLitObj
+  lc.display(); // want to do like this
+
+  // lc.NCube::display();   // through NCube
+  // lc.NLitObj::display(); // through NLitObj
+
+  
 }
